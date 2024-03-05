@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/progressFragment"
+        android:icon="@drawable/steps_fill0_wght400_grad0_opsz24"
+        android:title="@string/step" />
+
+    <item
+        android:id="@+id/statsFragment"
+        android:icon="@drawable/show_chart_fill0_wght400_grad0_opsz24"
+        android:title="@string/stats" />
+</menu>
