@@ -33,7 +33,7 @@
                     android:paddingVertical="18dp">
 
                     <View
-                        android:id="@+id/view_tree_background"
+                        android:id="@+id/view_milya_background"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:background="@drawable/shape_circle"
@@ -46,10 +46,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:importantForAccessibility="no"
-                        app:layout_constraintBottom_toBottomOf="@+id/view_tree_background"
-                        app:layout_constraintEnd_toEndOf="@+id/view_tree_background"
-                        app:layout_constraintStart_toStartOf="@+id/view_tree_background"
-                        app:layout_constraintTop_toTopOf="@+id/view_tree_background"
+                        app:layout_constraintBottom_toBottomOf="@+id/view_milya_background"
+                        app:layout_constraintEnd_toEndOf="@+id/view_milya_background"
+                        app:layout_constraintStart_toStartOf="@+id/view_milya_background"
+                        app:layout_constraintTop_toTopOf="@+id/view_milya_background"
                         app:srcCompat="@drawable/steps_fill0_wght400_grad0_opsz24"
                         app:tint="?attr/colorOnPrimary" />
 
@@ -61,10 +61,10 @@
                         android:layout_marginBottom="2dp"
                         android:textAppearance="?attr/textAppearanceTitleMedium"
                         app:layout_constraintBottom_toTopOf="@+id/text_trees_collected_label"
-                        app:layout_constraintStart_toEndOf="@+id/view_tree_background"
-                        app:layout_constraintTop_toTopOf="@+id/view_tree_background"
+                        app:layout_constraintStart_toEndOf="@+id/view_milya_background"
+                        app:layout_constraintTop_toTopOf="@+id/view_milya_background"
                         app:layout_constraintVertical_chainStyle="packed"
-                        tools:text="23 trees" />
+                        tools:text="23 мили" />
 
                     <TextView
                         android:id="@+id/text_trees_collected_label"
@@ -72,7 +72,7 @@
                         android:layout_height="wrap_content"
                         android:text="Лоцманская миля"
                         android:textAppearance="?attr/textAppearanceBodyMedium"
-                        app:layout_constraintBottom_toBottomOf="@+id/view_tree_background"
+                        app:layout_constraintBottom_toBottomOf="@+id/view_milya_background"
                         app:layout_constraintStart_toStartOf="@+id/text_trees_collected"
                         app:layout_constraintTop_toBottomOf="@+id/text_trees_collected"
                         app:layout_constraintVertical_chainStyle="packed" />
