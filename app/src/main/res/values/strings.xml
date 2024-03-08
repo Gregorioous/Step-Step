@@ -22,8 +22,8 @@
     <string name="stats">Stats</string>
 
     <!-- Progress -->
-    <string name="carbon_dioxide_saved">Carbon dioxide saved</string>
-    <string name="carbon_dioxide_saved_format">%.3f kg</string>
+    <string name="carbon_mylia_saved">Locsmanskaya mylia</string>
+    <string name="carbon_mylia_saved_format">1 mylia</string>
     <string name="calorie_burned">Calorie burned</string>
     <string name="calorie_burned_format">%d kcal</string>
     <string name="distance_travelled">Distance travelled</string>
