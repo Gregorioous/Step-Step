@@ -1,12 +1,12 @@
-package com.step.step_step.progress
+package com.step.step_step.stats.presentation
 
 import java.time.LocalDate
 
-data class ProgressState(
+data class StatsDetailsState(
     val date: LocalDate,
     val stepsTaken: Int,
-    val dailyGoal: Int,
     val calorieBurned: Int,
     val distanceTravelled: Double,
     val locsmanskayaMile: Double,
+    val chartDateRange: ClosedRange<LocalDate>
 )

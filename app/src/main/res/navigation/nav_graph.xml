@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/nav_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/progressFragment">
 
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.step.step_step.settings.presentation.SettingsFragment"
+        android:label="@string/settings" />
+
+    <fragment
+        android:id="@+id/progressFragment"
+        android:name="com.step.step_step.progress.ProgressFragment"
+        android:label="@string/step"
+        tools:layout="@layout/fragment_progress" />
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.step.step_step.stats.StatsFragment"
+        android:label="@string/stats"
+        tools:layout="@layout/fragment_stats" />
+    <fragment
+        android:id="@+id/activityRecognitionPermissionFragment"
+        android:name="com.step.step_step.core.presentation.ActivityRecognitionPermissionFragment"
+        android:label="fragment_activity_recognition_permission"
+        tools:layout="@layout/fragment_activity_recognition_permission">
+        <action
+            android:id="@+id/action_activityRecognitionPermissionFragment_to_progressFragment"
+            app:destination="@id/progressFragment" />
+    </fragment>
 </navigation>
