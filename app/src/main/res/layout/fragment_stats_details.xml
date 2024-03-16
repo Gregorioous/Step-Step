@@ -269,13 +269,13 @@
                     app:layout_constraintStart_toEndOf="@+id/view_milya_background"
                     app:layout_constraintTop_toTopOf="@+id/view_milya_background"
                     app:layout_constraintVertical_chainStyle="packed"
-                    tools:text="1.43 kg" />
+                    tools:text="1 mile" />
 
                 <TextView
                     android:id="@+id/text_milya_background_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/carbon_mylia_saved"
+                    android:text="@string/mylia_saved"
                     android:textAppearance="?attr/textAppearanceBodyMedium"
                     app:layout_constraintBottom_toBottomOf="@+id/view_milya_background"
                     app:layout_constraintStart_toStartOf="@+id/text_mylia_proideno_saved"

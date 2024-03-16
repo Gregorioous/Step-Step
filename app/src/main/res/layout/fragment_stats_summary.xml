@@ -64,7 +64,7 @@
                         app:layout_constraintStart_toEndOf="@+id/view_milya_background"
                         app:layout_constraintTop_toTopOf="@+id/view_milya_background"
                         app:layout_constraintVertical_chainStyle="packed"
-                        tools:text="23 мили" />
+                        tools:text="69 миль" />
 
                     <TextView
                         android:id="@+id/text_mylia_collected_label"

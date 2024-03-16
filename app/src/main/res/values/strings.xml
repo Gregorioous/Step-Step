@@ -22,12 +22,13 @@
     <string name="stats">Stats</string>
 
     <!-- Progress -->
-    <string name="carbon_mylia_saved">Locsmanskaya mylia</string>
-    <string name="carbon_mylia_saved_format">1 mylia</string>
+    <string name="mylia_saved">Locsmanskaya mile</string>
+    <string name="mylia_saved_format">%s mile</string>
     <string name="calorie_burned">Calorie burned</string>
     <string name="calorie_burned_format">%d kcal</string>
     <string name="distance_travelled">Distance travelled</string>
     <string name="distance_travelled_format">%.2f km</string>
+
 
     <!-- Stats -->
     <string name="previous_day">Previous day</string>
